@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Character">
+      <UniqueIdentifier>{86ae346f-66d4-45f2-846e-1e6d3e68d642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{ef843274-5b3e-46e1-852a-4b93bbbe41f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence">
+      <UniqueIdentifier>{05c0afaa-a429-4502-91ec-1fc1d5bda0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\Title">
+      <UniqueIdentifier>{50ed0f4e-5789-4540-b50b-1f111d0c76b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\GameMain">
+      <UniqueIdentifier>{37003fa8-bf16-4fb5-88ab-2e4e404833bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\Result">
+      <UniqueIdentifier>{76757e63-0d94-43af-a50d-f26cf7f620d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\VSPreparation">
+      <UniqueIdentifier>{7679ef80-8bcb-4a18-8352-2ad83fd3b604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\CharacterSelect">
+      <UniqueIdentifier>{5590b562-3359-45f5-ba0d-db9b1cac46ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{05e784ab-91c6-4135-af49-0400cb720d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Graphic">
+      <UniqueIdentifier>{49260551-4276-48c7-888d-7c980d81062d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Input">
+      <UniqueIdentifier>{832006c1-c59d-4f7d-a8ea-2f7ea55eb4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Sound">
+      <UniqueIdentifier>{24427829-9b95-4ab6-9c56-6e9b9f4818b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem">
+      <UniqueIdentifier>{dbad8327-86b1-4127-9363-bba0d0302696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Camera">
+      <UniqueIdentifier>{365e9a0f-9d24-414f-8559-d8f2671df001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\CutIn">
+      <UniqueIdentifier>{2efb650f-ba74-4530-b6ef-03d891c97c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect">
+      <UniqueIdentifier>{77d8485a-9330-40b6-9db2-7470e070b182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Slash">
+      <UniqueIdentifier>{c8d6d4d5-c2a2-4ae5-a4ff-13349e54d576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Ring">
+      <UniqueIdentifier>{142fe39c-68c4-41b8-9750-2ed6c0655ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\BurstRing">
+      <UniqueIdentifier>{bb3357c7-4737-42bb-8fda-07883995c38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Flush">
+      <UniqueIdentifier>{68004d46-f555-4d7b-849a-4aaf290590ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\LightLine">
+      <UniqueIdentifier>{58469327-51c3-4c98-b93e-4981cd5e1f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Wave">
+      <UniqueIdentifier>{877eb459-a0b4-4017-bc29-21b23e4e76b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Guard">
+      <UniqueIdentifier>{8198a692-a070-4256-9511-ef324baed595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\SwordTrajectory">
+      <UniqueIdentifier>{a05661ef-f841-4edc-be9d-a30e0a3a48a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Smoke">
+      <UniqueIdentifier>{7de241ca-3f08-4e2d-94f3-2ab98b77f64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Light">
+      <UniqueIdentifier>{079487c6-68f4-48bd-a690-9c044f5c8e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CollisionEffect">
+      <UniqueIdentifier>{f0b2e24c-a09c-4237-abe4-d5fc4b0e291e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CollisionEffect\FireEffect">
+      <UniqueIdentifier>{c2a37921-2042-4549-9e3f-f71c87dc66c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CollisionEffect\SpecialSlash">
+      <UniqueIdentifier>{bf5954f6-84ee-4d3b-b5b9-e59a6be2d67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle">
+      <UniqueIdentifier>{845bd30a-b8c3-4c3c-b816-b074af30b9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Fire">
+      <UniqueIdentifier>{80e59ff4-66f2-412a-a6c0-c800e1aa7001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Hit">
+      <UniqueIdentifier>{f771eee1-8454-4559-86da-0b073d5c5d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\PowerUp">
+      <UniqueIdentifier>{8abd3593-2404-48ad-bdab-1223d9ec91a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Guard">
+      <UniqueIdentifier>{260555c6-fe96-4811-9ac6-118b6bb580c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Star">
+      <UniqueIdentifier>{53b3b826-16a8-4043-87a2-015b981b1590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\SpecialHit">
+      <UniqueIdentifier>{6322c822-c02a-4ec4-8ce5-5eb3c7467a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Form">
+      <UniqueIdentifier>{ff513c28-e48d-4fec-b5ff-1da3f5d3cd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Offset">
+      <UniqueIdentifier>{8f689d12-405b-429f-8435-aa98a3fe4c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Stage">
+      <UniqueIdentifier>{f60e2fdf-afde-421e-b369-05157325af9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Stage\SubSpace">
+      <UniqueIdentifier>{79527f29-a2e2-4bbf-8dff-1ab197d0b0d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Lilia">
+      <UniqueIdentifier>{711206b5-a6ec-420d-95ec-b5da59ecade1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Runa">
+      <UniqueIdentifier>{02cfce5e-c02a-4029-aaae-f1a8e688b3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Command">
+      <UniqueIdentifier>{8df1c323-e282-40a1-925e-1404d71670a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Slash2">
+      <UniqueIdentifier>{80490d20-6d05-42da-9a37-0f228a676e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iniFileLoader">
+      <UniqueIdentifier>{53b1dc19-914e-400b-9842-694f15deea8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Collide">
+      <UniqueIdentifier>{2d3e84f1-c8ed-4a3b-b29b-ba1cceb5e685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI">
+      <UniqueIdentifier>{bc25ec76-b927-4236-b082-2c599bd63376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI\HPGauge">
+      <UniqueIdentifier>{81f6133b-6e43-4dfa-83ba-bdcef5f74f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI\SpecialGauge">
+      <UniqueIdentifier>{e8b8f79f-1925-4e09-9a40-a0300e36aed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\AI">
+      <UniqueIdentifier>{5ca58f47-39e7-4a27-83e7-9d115f367c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1ec9ebb4-ae8f-41d6-9616-0b4d3fde7027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ScreanEffect">
+      <UniqueIdentifier>{f7bdca9b-1739-4011-83b1-0dbbbd638d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\FileData">
+      <UniqueIdentifier>{740e5f31-66b0-4cbe-aa27-2772337e3e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Define">
+      <UniqueIdentifier>{f98a20c8-d78c-485a-813e-332813601705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Enum">
+      <UniqueIdentifier>{2d4f84f2-f6ff-4865-a70f-8375a9c20962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ParamLoader">
+      <UniqueIdentifier>{5b644eb9-9512-4e72-89c5-e6db1c8bc55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\StdAfx">
+      <UniqueIdentifier>{2511c929-30c4-47be-9278-74af88797c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\UniqueData">
+      <UniqueIdentifier>{5c010b12-6ec2-4243-bfae-c05ea7cf4318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utility">
+      <UniqueIdentifier>{7cb67078-e8b6-41fa-963f-ee3d03f81bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Struct">
+      <UniqueIdentifier>{2e3cc8c6-b300-44e5-b8c7-beb6e2b556e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem">
+      <UniqueIdentifier>{ab21c9fd-e3be-4723-a856-5997053f19c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\AppSystem">
+      <UniqueIdentifier>{7a941a68-ad63-461a-8bf3-7fad54968db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\FrameWork">
+      <UniqueIdentifier>{4ee36fae-2de9-4704-9b68-9931e752ff08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\CPUクロック">
+      <UniqueIdentifier>{d9ed8467-4bcc-4b4c-a5f8-d60f0aebb2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Font">
+      <UniqueIdentifier>{75e237da-4056-48e3-a4bd-a93ba74f1c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\ApplicationData">
+      <UniqueIdentifier>{db44c996-95e7-4a8f-ab52-5cd6338f77fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\ComboConter">
+      <UniqueIdentifier>{bbeec7d4-812e-4e7c-9bdd-6e1113f594b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\ParamLoader">
+      <UniqueIdentifier>{913de89b-e82b-465f-82ea-780c216011c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ApplicationSystem\FPSCounter">
+      <UniqueIdentifier>{7b7e6733-400a-4040-99af-472aee1139bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Shine">
+      <UniqueIdentifier>{4a1df486-2b0a-4b29-85e7-a56d29a32aab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX\GraphicsLib.cpp">
+      <Filter>DirectX\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\InputLib.cpp">
+      <Filter>DirectX\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\InputMask.cpp">
+      <Filter>DirectX\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DeviceManager.cpp">
+      <Filter>DirectX\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\VSPreparation.cpp">
+      <Filter>Sequence\VSPreparation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Title.cpp">
+      <Filter>Sequence\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Result.cpp">
+      <Filter>Sequence\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\GameMain.cpp">
+      <Filter>Sequence\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\CharaSelect.cpp">
+      <Filter>Sequence\CharacterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\FireParticle.cpp">
+      <Filter>Object\Particle\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\FormParticle.cpp">
+      <Filter>Object\Particle\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\GuardParticle.cpp">
+      <Filter>Object\Particle\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\HitParticle.cpp">
+      <Filter>Object\Particle\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\OffsetParticle.cpp">
+      <Filter>Object\Particle\Offset</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\PowerUpParticle.cpp">
+      <Filter>Object\Particle\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\SpecialHitParticle.cpp">
+      <Filter>Object\Particle\SpecialHit</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\StarParticle.cpp">
+      <Filter>Object\Particle\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\ParticleManager.cpp">
+      <Filter>Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\BurstRingEffect.cpp">
+      <Filter>Object\Effect\BurstRing</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\FlushEffect.cpp">
+      <Filter>Object\Effect\Flush</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\GuardEffect.cpp">
+      <Filter>Object\Effect\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\LightEffect.cpp">
+      <Filter>Object\Effect\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\LightLineEffect.cpp">
+      <Filter>Object\Effect\LightLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\RingEffect.cpp">
+      <Filter>Object\Effect\Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\SlashEffect.cpp">
+      <Filter>Object\Effect\Slash</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\SlashEffect2.cpp">
+      <Filter>Object\Effect\Slash2</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\SmokeEffect.cpp">
+      <Filter>Object\Effect\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\SwordTrajectoryEffect.cpp">
+      <Filter>Object\Effect\SwordTrajectory</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\WaveEffect.cpp">
+      <Filter>Object\Effect\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CollisionEffect\CollisionEffectManager.cpp">
+      <Filter>Object\CollisionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CollisionEffect\FireEffect.cpp">
+      <Filter>Object\CollisionEffect\FireEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CollisionEffect\SpecialSlashEffect.cpp">
+      <Filter>Object\CollisionEffect\SpecialSlash</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Runa.cpp">
+      <Filter>Character\Runa</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character\Lilia.cpp">
+      <Filter>Character\Lilia</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Stage\SubSpaceStage.cpp">
+      <Filter>Object\Stage\SubSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="iniFileLoader\iniFileLoaderBase.cpp">
+      <Filter>iniFileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\Camera.cpp">
+      <Filter>GameSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\ComboCounter.cpp">
+      <Filter>GameSystem\ComboConter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\Command.cpp">
+      <Filter>GameSystem\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\CutIn.cpp">
+      <Filter>GameSystem\CutIn</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\Collide.cpp">
+      <Filter>GameSystem\Collide</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\EffectManager.cpp">
+      <Filter>Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\HpGauge.cpp">
+      <Filter>Object\UI\HPGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\SpecialGauge.cpp">
+      <Filter>Object\UI\SpecialGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\UIManager.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ScreanEffect.cpp">
+      <Filter>Common\ScreanEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\Computer.cpp">
+      <Filter>GameSystem\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\FileData.cpp">
+      <Filter>Common\FileData</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\StdAfx.cpp">
+      <Filter>Common\StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UniqueData.cpp">
+      <Filter>Common\UniqueData</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Main.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SingletonOwner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\SequenceChanger.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSystem\FrameWork.cpp">
+      <Filter>ApplicationSystem\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Font.cpp">
+      <Filter>DirectX\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectSound.cpp">
+      <Filter>DirectX\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\SoundPlayer.cpp">
+      <Filter>DirectX\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSystem\WindowsApplication.cpp">
+      <Filter>ApplicationSystem\AppSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Direct3DSystem.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Direct3DData.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSystem\ApplicationData.cpp">
+      <Filter>ApplicationSystem\ApplicationData</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSystem\FPSCounter.cpp">
+      <Filter>ApplicationSystem\FPSCounter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\CutInManager.cpp">
+      <Filter>GameSystem\CutIn</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\ShineEffect.cpp">
+      <Filter>Object\Effect\Shine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX\GraphicsLib.h">
+      <Filter>DirectX\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\InputLib.h">
+      <Filter>DirectX\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\InputMask.h">
+      <Filter>DirectX\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DeviceManager.h">
+      <Filter>DirectX\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\myD3dlib.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\VSPreparation.h">
+      <Filter>Sequence\VSPreparation</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Title.h">
+      <Filter>Sequence\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Result.h">
+      <Filter>Sequence\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\GameMain.h">
+      <Filter>Sequence\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\CharaSelect.h">
+      <Filter>Sequence\CharacterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\FireParticle.h">
+      <Filter>Object\Particle\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\IObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\FormParticle.h">
+      <Filter>Object\Particle\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\GuardParticle.h">
+      <Filter>Object\Particle\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\HitParticle.h">
+      <Filter>Object\Particle\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\OffsetParticle.h">
+      <Filter>Object\Particle\Offset</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\PowerUpParticle.h">
+      <Filter>Object\Particle\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\SpecialHitParticle.h">
+      <Filter>Object\Particle\SpecialHit</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\StarParticle.h">
+      <Filter>Object\Particle\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\ParticleManager.h">
+      <Filter>Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\BurstRingEffect.h">
+      <Filter>Object\Effect\BurstRing</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\FlushEffect.h">
+      <Filter>Object\Effect\Flush</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\GuardEffect.h">
+      <Filter>Object\Effect\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\LightEffect.h">
+      <Filter>Object\Effect\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\LightLineEffect.h">
+      <Filter>Object\Effect\LightLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\RingEffect.h">
+      <Filter>Object\Effect\Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\SlashEffect.h">
+      <Filter>Object\Effect\Slash</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\SlashEffect2.h">
+      <Filter>Object\Effect\Slash2</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\SmokeEffect.h">
+      <Filter>Object\Effect\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\SwordTrajectoryEffect.h">
+      <Filter>Object\Effect\SwordTrajectory</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\WaveEffect.h">
+      <Filter>Object\Effect\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CollisionEffect\CollisionEffectManager.h">
+      <Filter>Object\CollisionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CollisionEffect\FireEffect.h">
+      <Filter>Object\CollisionEffect\FireEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CollisionEffect\SpecialSlashEffect.h">
+      <Filter>Object\CollisionEffect\SpecialSlash</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\CharacterFactory.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Runa.h">
+      <Filter>Character\Runa</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\Lilia.h">
+      <Filter>Character\Lilia</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Stage\StageFactory.h">
+      <Filter>Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Stage\SubSpaceStage.h">
+      <Filter>Object\Stage\SubSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="iniFileLoader\iniFileLoaderBase.h">
+      <Filter>iniFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\Camera.h">
+      <Filter>GameSystem\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\ComboCounter.h">
+      <Filter>GameSystem\ComboConter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\Command.h">
+      <Filter>GameSystem\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\CutIn.h">
+      <Filter>GameSystem\CutIn</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\Collide.h">
+      <Filter>GameSystem\Collide</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\EffectManager.h">
+      <Filter>Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\HpGauge.h">
+      <Filter>Object\UI\HPGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\SpecialGauge.h">
+      <Filter>Object\UI\SpecialGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\UIManager.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ScreanEffect.h">
+      <Filter>Common\ScreanEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\Computer.h">
+      <Filter>GameSystem\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\ISequence.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\FileData.h">
+      <Filter>Common\FileData</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Define.h">
+      <Filter>Common\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Enum.h">
+      <Filter>Common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ParamLoader.h">
+      <Filter>Common\ParamLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StdAfx.h">
+      <Filter>Common\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UniqueData.h">
+      <Filter>Common\UniqueData</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Utility.h">
+      <Filter>Common\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Struct.h">
+      <Filter>Common\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SingletonOwner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\SequenceChanger.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\FrameWork.h">
+      <Filter>ApplicationSystem\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\Rdtsc.h">
+      <Filter>ApplicationSystem\CPUクロック</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Font.h">
+      <Filter>DirectX\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectSound.h">
+      <Filter>DirectX\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\SoundPlayer.h">
+      <Filter>DirectX\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StringDefine.h">
+      <Filter>Common\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\IPlayer.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\WindowsApplication.h">
+      <Filter>ApplicationSystem\AppSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Direct3DSystem.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Direct3DData.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\ApplicationData.h">
+      <Filter>ApplicationSystem\ApplicationData</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character\CharacterParamLoader.h">
+      <Filter>Character\ParamLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\FPSCounter.h">
+      <Filter>ApplicationSystem\FPSCounter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\CutInManager.h">
+      <Filter>GameSystem\CutIn</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\ShineEffect.h">
+      <Filter>Object\Effect\Shine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Param.ini">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="CharacterParam.ini">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>

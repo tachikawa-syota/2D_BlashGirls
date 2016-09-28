@@ -1,0 +1,79 @@
+﻿2016/06/06 12:28:26 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\amg\Desktop\215b_girl\DirectX\DirectX\DirectX.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DirectX\InputLib.cpp
+         InputLib.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\amg\Desktop\215b_girl\DirectX\Release\DirectX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\amg\Desktop\215b_girl\DirectX\Release\DirectX.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\amg\Desktop\215b_girl\DirectX\Release\DirectX.lib" /MACHINE:X86 /SAFESEH Release\FPSCounter.obj
+         Release\FrameWork.obj
+         Release\WindowsApplication.obj
+         Release\ApplicationData.obj
+         Release\FileData.obj
+         Release\Main.obj
+         Release\ScreanEffect.obj
+         Release\SingletonOwner.obj
+         Release\StdAfx.obj
+         Release\UniqueData.obj
+         Release\DeviceManager.obj
+         Release\Direct3DData.obj
+         Release\Direct3DSystem.obj
+         Release\DirectSound.obj
+         Release\Font.obj
+         Release\GraphicsLib.obj
+         Release\InputLib.obj
+         Release\InputMask.obj
+         Release\SoundPlayer.obj
+         Release\Camera.obj
+         Release\Collide.obj
+         Release\ComboCounter.obj
+         Release\Command.obj
+         Release\Computer.obj
+         Release\CutIn.obj
+         Release\CutInManager.obj
+         Release\iniFileLoaderBase.obj
+         Release\Lilia.obj
+         Release\Runa.obj
+         Release\CollisionEffectManager.obj
+         Release\FireEffect.obj
+         Release\SpecialSlashEffect.obj
+         Release\BurstRingEffect.obj
+         Release\EffectManager.obj
+         Release\FlushEffect.obj
+         Release\GuardEffect.obj
+         Release\LightEffect.obj
+         Release\LightLineEffect.obj
+         Release\RingEffect.obj
+         Release\ShineEffect.obj
+         Release\SlashEffect.obj
+         Release\SlashEffect2.obj
+         Release\SmokeEffect.obj
+         Release\SwordTrajectoryEffect.obj
+         Release\WaveEffect.obj
+         Release\FireParticle.obj
+         Release\FormParticle.obj
+         Release\GuardParticle.obj
+         Release\HitParticle.obj
+         Release\OffsetParticle.obj
+         Release\ParticleManager.obj
+         Release\PowerUpParticle.obj
+         Release\SpecialHitParticle.obj
+         Release\StarParticle.obj
+         Release\SubSpaceStage.obj
+         Release\HpGauge.obj
+         Release\SpecialGauge.obj
+         Release\UIManager.obj
+         Release\CharaSelect.obj
+         Release\GameMain.obj
+         Release\Result.obj
+         Release\SequenceChanger.obj
+         Release\Title.obj
+         Release\VSPreparation.obj
+         コード生成しています。
+         コード生成が終了しました。
+         DirectX.vcxproj -> C:\Users\amg\Desktop\215b_girl\DirectX\Release\DirectX.exe
+     1>プロジェクト "C:\Users\amg\Desktop\215b_girl\DirectX\DirectX\DirectX.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.11
